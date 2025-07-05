@@ -18,7 +18,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/ShivaanjayNarula/zippy.git
-   cd Backend
+   cd server
    ```
 
 2. Install dependencies:

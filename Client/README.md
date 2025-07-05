@@ -26,7 +26,7 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/ShivaanjayNarula/Zippy.git
-   cd Frontend
+   cd client
    ```
 
 2. Install the dependencies:
