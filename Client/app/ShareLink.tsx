@@ -19,7 +19,7 @@ const ShareLink = ({ userCode }: { userCode: string }) => {
   const { theme } = useTheme();
   const handleCopyClick = () => {
     navigator.clipboard.writeText(
-      `https://z1ppie.vercel.app/share?code=${userCode}`
+      `https://zippy-two.vercel.app/share?code=${userCode}`
     );
     toast.success("Link Copied");
   };
@@ -45,7 +45,7 @@ const ShareLink = ({ userCode }: { userCode: string }) => {
             <div className="flex flex-col w-full gap-y-2 justify-center items-center">
               <div className="flex justify-center border rounded-md w-fit p-2">
                 <QRCodeSVG
-                  value={`https://z1ppie.vercel.app/share?code=${userCode}`}
+                  value={`https://zippy-two.vercel.app/share?code=${userCode}`}
                   size={128}
                   bgColor={theme === "dark" ? "#000000" : "#ffffff"}
                   fgColor={theme === "dark" ? "#ffffff" : "#000000"}
@@ -56,7 +56,7 @@ const ShareLink = ({ userCode }: { userCode: string }) => {
               <div className="flex w-full justify-center gap-x-1">
                 <Input
                   id="link"
-                  defaultValue={`https://z1ppie.vercel.app/share?code=${userCode}`}
+                  defaultValue={`https://zippy-two.vercel.app/share?code=${userCode}`}
                   readOnly
                 />
                 <Button
