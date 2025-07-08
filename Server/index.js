@@ -10,7 +10,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000", 
   process.env.URL, 
-  "https://zippy-two.vercel.app/" // Add your frontend URL here
+  "https://zippy-iota.vercel.app/" // Add your frontend URL here
 ];
 app.use(
   cors({
