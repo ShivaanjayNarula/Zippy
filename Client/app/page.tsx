@@ -43,7 +43,7 @@ const Home = () => {
         particleColor={"#FFFFFF"}
       />
       <TypewriterEffectSmooth words={words} />
-      A peer-to-peer file sharing app.
+      A P2P file sharing app.
       <div className="mt-8 gap-3 flex justify-center z-10">
         <Link href="/share">
           <EyeCatchingButton_v1>Start sharing</EyeCatchingButton_v1>
