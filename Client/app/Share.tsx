@@ -9,7 +9,7 @@ const Share = () => {
   return (
     <>
       <div className="flex flex-wrap mt-[100px] gap-x-2 justify-center gap-y-3">
-        <ShareCard />
+        <Sharerd />
         <Chat/>
         <ShootingStars />
         <StarsBackground />

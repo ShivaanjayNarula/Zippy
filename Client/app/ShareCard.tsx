@@ -335,7 +335,7 @@ const ShareCard = () => {
         <CardHeader>
           <CardTitle>Zippy</CardTitle>
           <CardDescription>
-            Connect to the same network for peer to peer to work.
+            Connect to the same network for P2P to work.
           </CardDescription>
         </CardHeader>
         {}

@@ -43,10 +43,12 @@ const Home = () => {
         particleColor={"#FFFFFF"}
       />
       <TypewriterEffectSmooth words={words} />
-      A P2P file sharing app.
+      A P2P file sharing app over the same network.
+      
+
       <div className="mt-8 gap-3 flex justify-center z-10">
         <Link href="/share">
-          <EyeCatchingButton_v1>Start sharing</EyeCatchingButton_v1>
+          <EyeCatchingButton_v1>Start sharing files</EyeCatchingButton_v1>
         </Link>
         <Link
           href={"https://github.com/ShivaanjayNarula/Zippy"}
@@ -54,7 +56,7 @@ const Home = () => {
         >
           <EyeCatchingButton_v1>
             <GithubIcon size={18} className="mr-2" />
-            GitHub Repo
+            GitHub Repository
           </EyeCatchingButton_v1>
         </Link>
       </div>
