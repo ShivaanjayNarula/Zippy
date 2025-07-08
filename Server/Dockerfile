@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8000
 
 # Define the command to run the application when the container starts
-CMD ["node", "server.js"]
+CMD ["npm", "start"]

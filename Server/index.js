@@ -22,7 +22,7 @@ app.use(
 const httpServer = http.createServer(app);
 
 app.get("/", (req, res) => {
-  res.send("Hello from Shivaanjay Narula");
+  res.send("hello from server");
 });
 
 const io = new Server(httpServer, {
