@@ -8,8 +8,9 @@ const cors = require("cors");
 const app = express();
 
 const allowedOrigins = [
+  "*",
   "http://localhost:3000", 
-  process.env.URL, 
+   
   "https://zippy-8ca4mwwba-shivaanjay-narulas-projects.vercel.app/" // Add your frontend URL here
 ];
 app.use(
