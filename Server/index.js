@@ -9,9 +9,9 @@ const app = express();
 
 const allowedOrigins = [
   "*",
-  "http://localhost:3000", 
-   
-  "https://zippy-8ca4mwwba-shivaanjay-narulas-projects.vercel.app/" // Add your frontend URL here
+  // "http://localhost:3000", 
+  // "https://zippy-iota.vercel.app/share",
+  // "https://zippy-8ca4mwwba-shivaanjay-narulas-projects.vercel.app/" // Add your frontend URL here
 ];
 app.use(
   cors({
@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 
 const io = new Server(httpServer, {
   cors: {
-    origin: allowedOrigins,
+    origin: "*",
   },
 });
 
